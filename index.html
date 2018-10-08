@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="js no-touchevents" lang="en">
+<head>
+    <meta charset="utf-8">
+    
+    <title> Airport Arrivals Schedule</title>
+    <!--adding google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,600,300italic,600italic" rel="stylesheet" type="text/css">
+    <!--adding bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--linking external stylesheet-->
+    <link rel="stylesheet" href="style.css" type="text/css"> 
+    <link rel="manifest" href="./manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+       
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+         <div class ="col-md-6 col-md-offset-3" id="offline"></div>
+        </div>  
+        <div class="row">
+                
+                <div class="col-md-6 col-md-offset-3">
+                   <h1>Arrivals</h1>  
+                </div>
+        </div>
+        <div class="row" >
+                
+            <div class="col-md-6 col-md-offset-3 ">
+                <div class="row">
+                    <div class="col-md-12">
+                      <ul class="list-group" id="arrival-list">
+                        <li class="list-group-item">
+                           <span class="flight-No" id="flight-No">55789</span>
+                           <span class="title" id="title">  Malta to spain</span>
+                           <span class="time" id="status" >On time</span>
+                           <span class="status" id="time">8.30pm</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="flight-No" id="flight-No">47856</span>
+                           <span class="title">Malta to spain</span>
+                           <span class="time">On time</span>
+                           <span class="status">8.30 pm</span>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--linking external javascript-->
+    
+    <script src="myscript.js"></script>
+</body>
+</html>
